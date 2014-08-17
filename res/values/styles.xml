@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="PauseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+    </style>
+
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <!--<style name="AppTheme.HomeActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">-->
+        <!--<item name="android:actionBarStyle">@style/surprise_style_actionbar</item>-->
+        <!--<item name="actionBarStyle">@style/surprise_style_actionbar</item>-->
+        <!--<item name="android:homeAsUpIndicator">@drawable/surprise_navigation_drawer_icon_hamburger</item>-->
+        <!--<item name="homeAsUpIndicator">@drawable/surprise_navigation_drawer_icon_hamburger</item>-->
+        <!--<item name="vpiTabPageIndicatorStyle">@style/BaseActivityTabPageIndicator</item>-->
+    <!--</style>-->
+</resources>
